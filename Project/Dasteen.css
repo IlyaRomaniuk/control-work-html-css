@@ -12,7 +12,7 @@ header{
     position: fixed;
     top: 0;
 }
-header .w-1250{
+header .header_w_1250{
     width: 1250px;
     height: 100%;
     margin: 0 auto;
@@ -20,14 +20,14 @@ header .w-1250{
     align-items: center;
     justify-content: space-between;
 }
-header .w-1250  ul{
+header .header_w_1250  ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     list-style-type: none;
 }
-header .w-1250 nav ul li a{
+header .header_w_1250 nav ul li a{
     text-decoration: none;
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -37,7 +37,7 @@ header .w-1250 nav ul li a{
     line-height: normal;
     text-transform: capitalize;
 }
-header .w-1250 p{
+header .header_w_1250 p{
     color: #001858;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
@@ -56,7 +56,7 @@ header p .blog{
     line-height: normal;
     margin-right: 300px;
 }
-header .search_button{
+header .icon_search{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,3 +80,83 @@ header button{
     border: none;
     margin-left: 50px;
 }
+/*------------------section hero-----------------*/
+.hero{
+    height: 900px;
+    background: #EFF0F3;
+    padding: 250px 0 263px 0;
+    box-sizing: border-box;
+}
+.hero_w_1250{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_w_1250 div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero_w_1250 h1{
+    width: 617px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hero_w_1250 p{
+    width: 652px;
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*.hero_w_1250>div>div.form{*/
+
+.hero_w_1250 form>input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+.hero_w_1250 form>button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+}
+
+
+
+
