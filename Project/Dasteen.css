@@ -95,7 +95,7 @@ header button{
     align-items: center;
     justify-content: space-between;
 }
-.hero_w_1250 div:nth-child(1){
+.hero_w_1250 div:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -112,6 +112,19 @@ header button{
     line-height: normal;
     text-transform: capitalize;
 }
+.hero_w_1250 .line{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.line:before{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+
+}
 .hero_w_1250 p{
     width: 652px;
     color: #9A9494;
@@ -120,9 +133,13 @@ header button{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 30px;
 }
-/*.hero_w_1250>div>div.form{*/
-
+.hero_w_1250 div:nth-child(3){
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
 .hero_w_1250 form>input{
     display: flex;
     padding: 21px 200px 21px 25px;
@@ -138,7 +155,7 @@ header button{
     line-height: normal;
     border: none;
 }
-.hero_w_1250 form>button{
+.hero_w_1250 button{
     display: flex;
     height: 67px;
     padding: 20px 23px 19px 23px;
@@ -156,6 +173,82 @@ header button{
     text-transform: capitalize;
     border: none;
 }
+.hero_w_1250 img{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------- section categories-------------*/
+.categories{
+    height: 500px;
+    background: #EFF0F3;
+    padding: 69px 0 68px 0;
+    box-sizing: border-box;
+}
+.categories_w_1250{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+.info_for_categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info_for_categories .icon_greater:after{
+    content: url("img/Frame.svg");
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin-left: 12px;
+    position: relative;
+    top: -10px;
+}
+.info_for_categories h4{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.categories_w_1250 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    padding-top: 50px;
+}
+.categories_w_1250 .card{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFFFFE;
+
+}
+.categories_w_1250 .one h4{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
 
 
 
