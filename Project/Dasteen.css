@@ -195,6 +195,16 @@ header button{
     align-items: center;
     justify-content: space-between;
 }
+.info_for_categories .icon_greater{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 .info_for_categories .icon_greater:after{
     content: url("img/Frame.svg");
     display: inline-block;
@@ -204,7 +214,7 @@ header button{
     vertical-align: middle;
     margin: 0 7px 0 12px;
     position: relative;
-    top: -9px;
+    top: -5px;
 }
 .info_for_categories h4{
     color: #2B2C34;
@@ -291,6 +301,16 @@ header button{
     align-items: center;
     justify-content: space-between;
 }
+.info_for_article .icon_greater{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 .info_for_article .icon_greater:after {
     content: url("img/Frame.svg");
     display: inline-block;
@@ -300,7 +320,7 @@ header button{
     vertical-align: middle;
     margin: 0 7px 0 12px;
     position: relative;
-    top: -9px;
+    top: -5px;
 }
 .info_for_article h4{
     color: #2B2C34;
@@ -593,12 +613,22 @@ header button{
     height: 100%;
     margin: 0 auto;
 }
-.info_for_article{
+.info_for_article_css{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.info_for_article .icon_greater:after {
+.info_for_article_css .icon_greater{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.info_for_article_css .icon_greater:after {
     content: url("img/Frame.svg");
     display: inline-block;
     width: 6px;
@@ -607,9 +637,9 @@ header button{
     vertical-align: middle;
     margin: 0 7px 0 12px;
     position: relative;
-    top: -9px;
+    top: -5px;
 }
-.info_for_article h4{
+.info_for_article_css h4{
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
@@ -689,6 +719,839 @@ header button{
     position: relative;
     top: -1px;
 }
+.article_css_cards .second_article_css_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_css_cards .second_article_css_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_css_cards .second_article_css_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .second_article_css_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_css_cards .second_article_css_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_css_cards .second_article_css_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_css_cards .second_article_css_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .second_article_css_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_css_cards .third_article_css_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_css_cards .third_article_css_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_css_cards .third_article_css_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .third_article_css_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_css_cards .third_article_css_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_css_cards .third_article_css_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_css_cards .third_article_css_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .third_article_css_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_css_cards .fourth_article_css_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 30px;
+}
+.article_css_cards .fourth_article_css_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_css_cards .fourth_article_css_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .fourth_article_css_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_css_cards .fourth_article_css_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_css_cards .fourth_article_css_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_css_cards .fourth_article_css_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_css_cards .fourth_article_css_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+/*------------ section article_javascript --------------*/
+.article_javascript{
+    height: 490px;
+    background: #FFFFFE;
+    padding: 80px 0 80px 0;
+    box-sizing: border-box;
+}
+.article_javascript_w_1250{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+.info_for_article_javascript{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info_for_article_javascript .icon_greater{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.info_for_article_javascript .icon_greater:after {
+    content: url("img/Frame.svg");
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin: 0 7px 0 12px;
+    position: relative;
+    top: -5px;
+}
+.info_for_article_javascript h4{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_w_1250 .article_javascript_cards{
+    display: flex;
+    gap: 16px;
+    padding-top: 30px;
+}
+.article_javascript_cards .first_article_javascript_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_javascript_cards .first_article_javascript_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_javascript_cards .first_article_javascript_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .first_article_javascript_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_javascript_cards .first_article_javascript_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_javascript_cards .first_article_javascript_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_javascript_cards .first_article_javascript_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .first_article_javascript_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_javascript_cards .second_article_javascript_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 80px;
+}
+.article_javascript_cards .second_article_javascript_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_javascript_cards .second_article_javascript_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .second_article_javascript_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_javascript_cards .second_article_javascript_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_javascript_cards .second_article_javascript_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_javascript_cards .second_article_javascript_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .second_article_javascript_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_javascript_cards .third_article_javascript_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 30px;
+}
+.article_javascript_cards .third_article_javascript_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_javascript_cards .third_article_javascript_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .third_article_javascript_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_javascript_cards .third_article_javascript_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_javascript_cards .third_article_javascript_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_javascript_cards .third_article_javascript_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .third_article_javascript_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_javascript_cards .fourth_article_javascript_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_javascript_cards .fourth_article_javascript_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_javascript_cards .fourth_article_javascript_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .fourth_article_javascript_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_javascript_cards .fourth_article_javascript_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_javascript_cards .fourth_article_javascript_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_javascript_cards .fourth_article_javascript_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_javascript_cards .fourth_article_javascript_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+/*------------ section article_react --------------*/
+.article_react{
+    height: 490px;
+    background: #FFFFFE;
+    padding: 80px 0 80px 0;
+    box-sizing: border-box;
+}
+.article_react_w_1250{
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+.info_for_article_react{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info_for_article_react .icon_greater{
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.info_for_article_react .icon_greater:after {
+    content: url("img/Frame.svg");
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin: 0 7px 0 12px;
+    position: relative;
+    top: -5px;
+}
+.info_for_article_react h4{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_w_1250 .article_react_cards{
+    display: flex;
+    gap: 16px;
+    padding-top: 30px;
+}
+.article_react_cards .first_article_react_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_react_cards .first_article_react_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_react_cards .first_article_react_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .first_article_react_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_react_cards .first_article_react_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_react_cards .first_article_react_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_react_cards .first_article_react_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .first_article_react_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_react_cards .second_article_react_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_react_cards .second_article_react_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_react_cards .second_article_react_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .second_article_react_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_react_cards .second_article_react_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_react_cards .second_article_react_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_react_cards .second_article_react_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .second_article_react_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_react_cards .third_article_react_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_react_cards .third_article_react_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_react_cards .third_article_react_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .third_article_react_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_react_cards .third_article_react_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_react_cards .third_article_react_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_react_cards .third_article_react_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .third_article_react_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.article_react_cards .fourth_article_react_card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    gap: 55px;
+}
+.article_react_cards .fourth_article_react_card .top_part{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+.article_react_cards .fourth_article_react_card h4{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .fourth_article_react_card .author{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px
+}
+.article_react_cards .fourth_article_react_card .author .author_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    padding-top: 10px;
+}
+.article_react_cards .fourth_article_react_card h6{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article_react_cards .fourth_article_react_card p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article_react_cards .fourth_article_react_card .dot{
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+
+
+
 
 
 
